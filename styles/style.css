@@ -1,0 +1,49 @@
+/* basic setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Noto Serif", serif;
+}
+
+/* variables */
+:root {
+  --primary-color: #e95a08;
+  --dark1: rgba(107, 114, 128, 1);
+  --dark2: rgba(0, 0, 0, 0.5);
+  --dark3: rgba(137, 135, 161, 1);
+}
+
+/* common styles */
+header,
+main {
+  padding: 0 150px;
+}
+
+section {
+  margin-bottom: 120px;
+}
+
+p {
+  color: var(--dark2);
+  padding: 20px 0;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.word-color {
+  color: var(--primary-color);
+}
