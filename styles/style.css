@@ -11,6 +11,11 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
 h1,
 h2,
 h3 {
@@ -19,7 +24,7 @@ h3 {
 
 /* variables */
 :root {
-  --primary-color: #e95a08;
+  --primary-color: #e66216;
   --dark1: rgba(107, 114, 128, 1);
   --dark2: rgba(0, 0, 0, 0.5);
   --dark3: rgba(137, 135, 161, 1);
@@ -47,3 +52,76 @@ h2 {
 .word-color {
   color: var(--primary-color);
 }
+
+/* header start here */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.nav__logo {
+  width: 140px;
+}
+
+.nav__list {
+  display: flex;
+  gap: 30px;
+}
+
+.nav__link {
+  color: black;
+}
+
+.nav__item:first-child a {
+  font-weight: bold;
+}
+
+.nav__item:nth-child(2) a,
+.nav__item:nth-child(3) a {
+  color: var(--dark2);
+}
+
+.nav__item:last-child a {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+
+.nav__item:last-child a:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.nav__item:last-child a i {
+  font-size: 18px;
+}
+
+.nav__item:first-child a:hover,
+.nav__item:nth-child(2) a:hover,
+.nav__item:nth-child(3) a:hover {
+  color: var(--primary-color);
+  transition: 0.2s;
+}
+
+.banner {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 100px;
+}
+
+.banner__title {
+  font-size: 60px;
+}
+
+.banner__desc {
+  max-width: 570px;
+}
+
+.banner__img {
+  width: 570px;
+}
+/* header end here */
