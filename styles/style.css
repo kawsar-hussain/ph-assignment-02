@@ -61,6 +61,7 @@ nav {
   padding: 20px 0;
 }
 
+/* nav start */
 .nav__logo {
   width: 140px;
 }
@@ -107,7 +108,9 @@ nav {
   color: var(--primary-color);
   transition: 0.2s;
 }
+/* nav end */
 
+/* banner start */
 .banner {
   display: flex;
   justify-content: space-between;
@@ -127,10 +130,10 @@ nav {
 .banner__img {
   width: 570px;
 }
+/* banner end */
 /* header end here */
 
 /* main start here */
-
 /* plants start */
 .plants {
   text-align: center;
@@ -310,9 +313,9 @@ nav {
   background-position: center;
   background-size: cover;
   height: 500px;
-  color: white;
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
+  color: white;
 
   display: flex;
   flex-direction: column;
