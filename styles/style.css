@@ -31,7 +31,8 @@ h2 {
 
 /* common styles */
 header,
-main {
+main,
+footer {
   padding: 0 150px;
 }
 
@@ -301,6 +302,50 @@ nav {
   transform: translate(-50%, -50%);
   white-space: nowrap;
 }
-
 /* discount end */
+
+/* join start */
+.join {
+  background: url(/images/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.subscribe {
+  width: 700px;
+  display: flex;
+}
+
+.subscribe input {
+  width: 75%;
+  padding: 15px 25px;
+  border: none;
+}
+
+.subscribe button {
+  width: 25%;
+  padding: 15px 0;
+  font-weight: bold;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 15px;
+}
+
+.subscribe button:hover {
+  background-color: red;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* join end */
 /* main end here */

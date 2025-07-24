@@ -1,5 +1,6 @@
 header,
-main {
+main,
+footer {
   padding: 0 10px;
 }
 
@@ -136,6 +137,40 @@ p {
 .discount p {
   font-size: 18px;
 }
-
 /* discount end */
+
+/* join start */
+.join {
+  height: 300px;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  gap: 15px;
+  padding: 0 10px;
+}
+
+.join__title {
+  font-size: 24px;
+}
+
+.subscribe {
+  width: 100%;
+  display: flex;
+}
+
+.subscribe input {
+  width: 70%;
+  padding: 15px 20px;
+}
+
+.subscribe button {
+  width: 30%;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+.subscribe button i {
+  display: none;
+}
+
+/* join end */
 /* main end here */
