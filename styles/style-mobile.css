@@ -3,8 +3,12 @@ main {
   padding: 0 10px;
 }
 
+h2 {
+  font-size: 40px;
+}
+
 section {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 p {
@@ -46,9 +50,7 @@ p {
 /* header end here */
 
 /* main start here */
-.plants__title {
-  font-size: 45px;
-}
+/* plants start */
 .plants__desc {
   padding: 10px 0;
 }
@@ -77,4 +79,39 @@ p {
   padding: 17px;
   font-size: 14px;
 }
+/* plants end */
+
+/* flower start */
+.flower {
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.flower__img {
+  width: 100%;
+  position: static;
+}
+
+.flower__badge {
+  display: none;
+}
+
+.flower__info {
+  width: 100%;
+}
+
+.flower__title {
+  margin-bottom: 10px;
+}
+
+.flower__info ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.flower__info ul li {
+  margin-left: 17px;
+}
+/* flower end */
 /* main end here */

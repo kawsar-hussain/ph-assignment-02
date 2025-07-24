@@ -109,6 +109,7 @@ nav {
 
 .banner {
   display: flex;
+  justify-content: space-between;
   align-items: flex-end;
   margin-top: 100px;
 }
@@ -130,8 +131,6 @@ nav {
 /* main start here */
 
 /* plants start */
-
-/* plants end */
 .plants {
   text-align: center;
 }
@@ -175,4 +174,45 @@ nav {
   font-size: 16px;
   cursor: pointer;
 }
+/* plants end */
+
+/* flower start */
+.flower {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+  margin-top: 170px;
+}
+
+.flower__img {
+  width: 40%;
+  position: relative;
+}
+
+.flower__badge {
+  width: 270px;
+  height: 270px;
+
+  position: absolute;
+  top: -110px;
+  right: -90px;
+}
+
+.flower__info {
+  width: 60%;
+}
+
+.flower__title {
+  margin-bottom: 20px;
+}
+
+.flower__info ul li {
+  list-style: disc;
+  color: var(--dark2);
+  margin-left: 22px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+/* flower end */
 /* main end here */
