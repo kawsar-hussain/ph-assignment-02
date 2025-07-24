@@ -17,8 +17,7 @@ img {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: "Noto Serif", serif;
 }
 
@@ -94,6 +93,7 @@ nav {
 .nav__item:last-child a:hover {
   background-color: var(--primary-color);
   color: white;
+  transition: 0.2s;
 }
 
 .nav__item:last-child a i {
@@ -119,9 +119,60 @@ nav {
 
 .banner__desc {
   max-width: 570px;
+  padding-bottom: 0;
 }
 
 .banner__img {
   width: 570px;
 }
 /* header end here */
+
+/* main start here */
+
+/* plants start */
+
+/* plants end */
+.plants {
+  text-align: center;
+}
+
+.plants__title {
+  font-size: 50px;
+}
+
+.plants__desc {
+  padding: 20px 250px;
+}
+
+.plants__items {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.plants__card {
+  margin-top: 15px;
+}
+
+.plants__card__title {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 30px 0 15px 0;
+}
+.plants__card__price {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.plants__card__button {
+  width: 100%;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* main end here */

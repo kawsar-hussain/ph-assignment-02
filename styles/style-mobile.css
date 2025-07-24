@@ -30,10 +30,13 @@ p {
 
 .banner {
   flex-direction: column-reverse;
+  margin-top: 50px;
 }
 
 .banner__img {
   width: 100%;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
 }
 
 .banner__title {
@@ -41,3 +44,37 @@ p {
   margin-top: 30px;
 }
 /* header end here */
+
+/* main start here */
+.plants__title {
+  font-size: 45px;
+}
+.plants__desc {
+  padding: 10px 0;
+}
+
+.plants__items {
+  margin-top: 15px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.plants__card {
+  margin-top: 8px;
+}
+
+.plants__card__title {
+  font-size: 18px;
+  margin: 20px 0 10px 0;
+}
+
+.plants__card__price {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.plants__card__button {
+  padding: 17px;
+  font-size: 14px;
+}
+/* main end here */
