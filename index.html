@@ -29,10 +29,10 @@
     <!-- header start here -->
     <header>
       <nav>
-        <img src="./images/logo.png" alt="photo of flower as nav logo" class="nav__logo" />
+        <a href="index.html"><img src="./images/logo.png" alt="photo of flower as nav logo" class="nav__logo" /></a>
         <ul class="nav__list">
           <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-          <li class="nav__item"><a href="" class="nav__link">Shop</a></li>
+          <li class="nav__item"><a href="#plants" class="nav__link">Shop</a></li>
           <li class="nav__item"><a href="" class="nav__link">About us</a></li>
           <li class="nav__item">
             <a href="" class="nav__link"><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a>
@@ -61,7 +61,7 @@
     <!-- main start here -->
     <main>
       <!-- plants start -->
-      <section class="plants">
+      <section class="plants" id="plants">
         <h2 class="plants__title"><span class="word-color">Our</span> Plants</h2>
         <p class="plants__desc">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
         <!-- .plants__items>.plants__card*8>img.plants__card__img[src="./images/sample-flower-image.png"]+h3.plants__card__title{Lily Blossom}+h3.plants__card__price{20 USD}+button.plants__card__button{ADD TO CART} -->
@@ -152,14 +152,14 @@
               <img src="./images/deal-ana.png" alt="" />
               <div class="discount__title">
                 <h4>60% Off | Bloom Plant</h4>
-                <p>Shop Now</p>
+                <a href="#">Shop Now</a>
               </div>
             </div>
             <div class="discount discount2">
               <img src="./images/deal-bloom.png" alt="" />
               <div class="discount__title">
                 <h4>30% Off | Ana Plant</h4>
-                <p>Shop Now</p>
+                <a href="#">Shop Now</a>
               </div>
             </div>
           </div>
@@ -167,7 +167,7 @@
             <img src="./images/deal-zabo.png" alt="" />
             <div class="discount__title">
               <h4>25% Off | Zabo Plant</h4>
-              <p>Shop Now</p>
+              <a href="#">Shop Now</a>
             </div>
           </div>
         </div>
@@ -185,5 +185,36 @@
       <!-- join end -->
     </main>
     <!-- main end here -->
+
+    <!-- footer start here -->
+    <footer>
+      <div class="footer__info">
+        <a href="index.html"><img src="./images/logo.png" alt="" class="footer__logo" /></a>
+        <p class="footer__desc">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+      </div>
+
+      <ul class="footer__link footer__link1">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <ul class="footer__link footer__link2">
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Help Center</a></li>
+      </ul>
+
+      <div class="footer__icon">
+        <a href="#"><img src="./images/icon-linkedin.png" alt="" /></a>
+        <a href="#"><img src="./images/icon-twitter.png" alt="" /></a>
+        <a href="#"><img src="./images/icon-facebook.png" alt="" /></a>
+        <a href="#"><img src="./images/icon-youtube.png" alt="" /></a>
+      </div>
+    </footer>
+    <!-- footer end here -->
   </body>
 </html>

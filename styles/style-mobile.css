@@ -9,7 +9,7 @@ h2 {
 }
 
 section {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 p {
@@ -107,7 +107,7 @@ p {
 }
 
 .flower__info ul li {
-  font-size: 18px;
+  font-size: 17px;
   margin-bottom: 10px;
 }
 
@@ -116,7 +116,10 @@ p {
 }
 /* flower end */
 
-/* discount start */
+/* deals start */
+.deals {
+  margin-bottom: 30px;
+}
 .deals__desc {
   padding: 20px 0 30px;
 }
@@ -134,17 +137,20 @@ p {
   font-size: 20px;
 }
 
-.discount p {
+.discount a {
   font-size: 18px;
 }
-/* discount end */
+
+.discount3 a {
+  text-underline-offset: 5px;
+}
+/* deals end */
 
 /* join start */
 .join {
   height: 300px;
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
-  gap: 15px;
   padding: 0 10px;
 }
 
@@ -171,6 +177,23 @@ p {
 .subscribe button i {
   display: none;
 }
-
 /* join end */
 /* main end here */
+
+/* footer start here */
+footer {
+  flex-direction: column;
+  gap: 0px;
+  padding-bottom: 30px;
+}
+
+.footer__info {
+  margin: 20px 0;
+}
+
+.footer__icon {
+  padding: 20px 0;
+  justify-content: flex-start;
+  gap: 35px;
+}
+/* footer end here */
